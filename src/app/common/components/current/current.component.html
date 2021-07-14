@@ -1,0 +1,14 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{city.name | uppercase}}</mat-card-title>
+    <mat-card-subtitle>{{getDate() | date:'medium'}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src={{getIconURL()}} alt=". . .">
+  <mat-card-content>
+    <p style="font-size: 32px">{{current.temp | number: '2.0-0'}} °С</p>
+    <p>{{current.weather[0].description}}</p>
+    <p>влажность {{current.humidity/100 | percent}}</p>
+    <p>ветер {{current.wind_speed}}м/с</p>
+  </mat-card-content>
+</mat-card>

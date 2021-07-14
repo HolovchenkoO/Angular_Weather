@@ -1,0 +1,11 @@
+.example-card {
+  max-width: 500px;
+}
+
+.example-header-image {
+  background-image: url('https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png');
+  background-size: cover;
+}
+img {
+  background-color: deepskyblue;
+}

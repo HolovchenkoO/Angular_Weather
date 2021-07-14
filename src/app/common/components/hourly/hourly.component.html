@@ -1,0 +1,8 @@
+<li>
+  <span>{{getDate() | date:'hh:mm'}}</span>
+  <img src="{{getIconURL()}}" alt=". . .">
+  <span>{{hourly.temp | number: '2.0-0'}} °С</span>
+  <span>{{hourly.weather[0].description}}</span>
+  <span>влажность {{hourly.humidity/100 | percent}}</span>
+  <span>ветер {{hourly.wind_speed}}м/с</span>
+</li>

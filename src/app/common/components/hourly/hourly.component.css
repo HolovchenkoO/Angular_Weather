@@ -1,0 +1,15 @@
+li{
+  padding: 5px;
+  margin: 5px;
+}
+span{
+  border-color: lightslategrey;
+  border-width: 1px;
+  font-size: 20px;
+  margin-left: 16px;
+
+}
+img{
+  max-width: 30px;
+  margin-left: 30px;
+}
